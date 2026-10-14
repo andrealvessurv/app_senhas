@@ -1,0 +1,22 @@
+[project]
+name = "gerador-senhas-pro"
+version = "5.0.0"
+description = "Gerador de senhas com verificador de força e cofre criptografado"
+requires-python = ">=3.10"
+dependencies = [
+  "flet==1.0.3",
+  "certifi",          # certificados para a checagem de vazamentos funcionar no app empacotado
+]
+
+[tool.flet]
+org = "com.meuapp"
+product = "Gerador de Senhas Pro"
+company = "Meu App"
+
+[tool.flet.app]
+module = "app_senhas"   # nome do arquivo .py principal (sem o .py)
+
+# Ícone: coloque uma imagem PNG quadrada (ideal 1024x1024) em assets/icon.png
+# Para um fundo colorido atrás do ícone no macOS, descomente:
+# [tool.flet.macos]
+# icon_background = "#1a1a2e"
