@@ -3,7 +3,7 @@
 Gerador de senhas (aleatória, frase-senha e PIN), verificador de força com checagem de
 vazamentos e cofre criptografado com senha mestra. Feito com Python + [Flet](https://flet.dev).
 
-## Rodar no computador (desenvolvimento)
+## Rodar no computador MACOS (desenvolvimento)
 
 ```bash
 pip install "flet==1.0.3" certifi
